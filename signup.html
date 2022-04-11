@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="affordable and professional web design">
+	<meta name="keyword" content="web design, affordable web design, prfessional wb design">
+	<meta name="author" content="Minal Ahluwalia">
+
+
+
+	<title>Attendance Management System | Welcome</title>
+    <link rel="stylesheet" href="../static/style1.css">
+
+
+
+</head>
+<div class ="container">
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Attendance</span> Management System</h1>
+			</div>
+        </div>
+    </header>
+</body>
+</div>
+
+
+
+</head>
+<body>
+
+<div class="form">
+	<form  class="button1" action="{{ url_for('signup') }}" method="post" >
+         <h1>Signup</h1>
+    <p>Please fill in this form to create an account.</p>
+        <input type="text" id = "username" name="username" placeholder="Enter Username" required>
+		<input type="text" name="email" placeholder="Enter Email Address" required>
+		<input type ="password" id="password" name="password" placeholder="Enter Password" required>
+        <input type ="password" id="password-Repeat" name="password-Repeat" placeholder="Repeat Password" required>
+		<button type="signup" class="button1" onclick="validation()">Signup</button>
+	</form>
+	<p> already have an account? <a href = "login.html">Login</a></p>
+</div>
+</div>
+</body>
+<footer>
+	<p> Attendance Management System, Copyright &copy; 2022</p>
+
+</footer>
+
+
+</html>

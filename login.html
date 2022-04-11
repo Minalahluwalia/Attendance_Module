@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="affordable and professional web design">
+	<meta name="keyword" content="web design, affordable web design, prfessional wb design">
+	<meta name="author" content="Minal Ahluwalia">
+
+
+
+	<title>Attendance Management System | Welcome</title>
+	<link rel="stylesheet" href="../static/style.css">
+
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Attendance</span> Management System</h1>
+			</div>
+		<nav>
+			<ul>
+				<li class="current"><a href="../templates/login.html">LOGIN</a></li>
+				<li class="current"><a href="../templates/login.html">Home</a></li>
+				<li><a href="../templates/about.html">About</a></li>
+
+
+			</ul>
+		</nav>
+	</div>
+	<div class="form">
+	<form  class="button1" action="{{ url_for('login') }}" method="post" >
+
+		<input type="text" id = "username" name="username" placeholder="Enter Username" required>
+		<input type="email" name="email" placeholder="Enter Email Address" required>
+		<input type ="password" id="password" name="password" placeholder="Enter Password" required>
+		<button type="login" class="button1" onclick="validation()">Login</button>
+	</form>
+</div>
+	</header>
+
+	<section id="showcase">
+		<div class="container">
+			<h1> Effortlessly Manages All Your Data</h1>
+			<p>Think analytically, rigorously, and systematically about a business problem and come up with a solution that leverages the available data. </p>
+		</div>
+	</section>
+
+<footer>
+	<p> Attendance Management System, Copyright &copy; 2022</p>
+
+</footer>
+
+</body>
+</html>
